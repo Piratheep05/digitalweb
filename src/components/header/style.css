@@ -1,0 +1,8 @@
+ /* White Secondary Logo */
+ .company-icon {
+    position: absolute;
+    left: 0;
+    top: -44.44%; /* Adjust as needed */
+    background: #FFFFFF;
+    /* Add other styles such as width, height, etc. as needed */
+  }

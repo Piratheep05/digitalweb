@@ -1,0 +1,17 @@
+ /* Plus and Minus Icons */
+ .accordion-button.collapsed::after {
+    content: '+';
+    font-size: 20px; /* Adjust as needed */
+    color: green; /* Change color as needed */
+  }
+
+  .accordion-button::after {
+    content: '-';
+    font-size: 20px; /* Adjust as needed */
+    color: red; /* Change color as needed */
+  }
+
+  /* Hide Default Bootstrap Arrow Icons */
+  .accordion-button::before {
+    display: none;
+  }
